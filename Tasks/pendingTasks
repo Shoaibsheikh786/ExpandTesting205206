@@ -1,0 +1,33 @@
+#1.
+1. create generic methods for excel reading
+2. create generic methods for configuration reading
+3. create generic methods for javaScriptExecutor 
+4..... 
+
+#2.
+1. create multiple page classes 
+2. create multiple test casses
+3. minimun write 70 - 80 test cases
+4. use reporting allure 
+5. log4j2
+
+
+#3
+1. listneres 
+2. itestlistener , itretyanalyzer
+3. take screenshot for the failed test cases
+3. create log for the failed test cases
+4. Test suite , , smokes, regression 
+
+
+#4
+1. jenkins excute test by jenkins 
+2. get the code from github
+3. make the repositroy private 
+4. execute tests parallely
+
+
+...
+
+
+
