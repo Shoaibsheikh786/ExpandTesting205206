@@ -3,6 +3,7 @@ package com.expandtestig.tests;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.testng.Assert;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
@@ -32,6 +33,14 @@ public class WebInputsTest extends Setup {
        Assert.assertEquals(driver.getTitle(),PageTitles.WebInpTitle);
 	}
 	
+	
+	@AfterTest
+	public void tearDown()
+	{
+		if(driver!=null)
+			driver.close();
+	}
+	
 	@Test
 	public void verifyDisplyInputs()
 	{   
@@ -42,8 +51,6 @@ public class WebInputsTest extends Setup {
 		Waits.staticWait();
 		wi.clickOnDisplayInputs();
 		String str=wi.displayOutputNumber();
-		
-		System.out.println("My Number "+str);
 		Assert.assertEquals(str, "123");
 		
 	}

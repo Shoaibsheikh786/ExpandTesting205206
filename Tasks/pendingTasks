@@ -23,11 +23,23 @@
 #4
 1. jenkins excute test by jenkins 
 2. get the code from github
-3. make the repositroy private 
+3. make the repository private 
 4. execute tests parallely
 
 
-...
+#5.
+execute your tests without opening browser 
+headless mode 
+
+
+#6. selenium gird 
+--> server and node 
+
+
+#7. 
+keep you github repository updated
+
+
 
 
 
